@@ -1,0 +1,13 @@
+Use case: photorealistic-natural
+Asset type: seamless square background texture for the Indie Techie homepage
+Primary request: Create a seamless, tileable, extremely subtle photographic texture of warm off-white uncoated proof paper, visually matching the quiet analog paper finish of the supplied approved homepage comp.
+Input images: Image 1 is a style and palette reference only; sample its warm paper character, not its layout, content, frame, portrait, typography, or UI.
+Scene/backdrop: The entire square canvas is one continuous flat sheet of paper viewed straight on.
+Subject: Microscopic natural paper fibers and barely perceptible tooth only.
+Style/medium: Photographic macro surface texture, materially credible, restrained, neutral, suitable behind readable website content.
+Composition/framing: Square, edge-to-edge, technically seamless/tileable on all four sides, uniform detail density, no focal point, no visible edges or borders.
+Lighting/mood: Perfectly even diffuse illumination, almost flat, extremely low contrast.
+Color palette: Warm off-white centered in the #F2EFE7 family with only minute tonal variation.
+Materials/textures: Matte uncoated proof paper, fine random fibers, no repeating motifs visible at normal size.
+Constraints: No text, no marks, no objects, no symbols, no shadows, no edge darkening, no hotspots. Must remain subtle enough that black body text retains excellent readability over it.
+Avoid: Gradient, vignette, paper edge, deckle edge, fold, crease, seam, stain, speckle clusters, dirt, scratches, ruled lines, dots, grid, handwriting, watermark, logo, frame, wood, desk, hands, tools, high contrast, directional lighting, obvious repetition.

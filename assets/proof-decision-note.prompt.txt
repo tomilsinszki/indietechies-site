@@ -1,0 +1,21 @@
+Use case: photorealistic-natural
+Asset type: first contact-sheet proof frame for the Indie Techie homepage, 3:2 landscape
+Primary request: Create a natural top-down documentary close-up of a practical handwritten decision note, visually matching the warm editorial proof-frame treatment and restrained analog finish of the supplied approved homepage comp.
+Input images: Image 1 is a style and palette reference only; do not reproduce its full webpage layout, portrait, typography, UI, frame labels, or other contact-sheet panels.
+Scene/backdrop: A single sheet of dotted off-white uncoated notebook paper resting on a dark walnut wooden desk, with a plain black pen partly visible along the left edge.
+Subject: The note is written by hand in neat, natural black ink with three clear section headings and a single electric-blue handwritten proof check mark near the upper-right area.
+Style/medium: Photorealistic editorial documentary photography, tactile real paper fibers, restrained grain, credible pen pressure, intentionally imperfect handwriting that remains easy to read, no sterile stock-photo polish.
+Composition/framing: True overhead camera, close crop, 3:2 landscape, page fills most of the frame, pen at left, ample breathing room between sections, no border or film-strip overlay. Keep every line comfortably inside the crop.
+Lighting/mood: Soft diffuse daylight from upper left, quiet maker-studio mood, low contrast, natural shadows only.
+Color palette: Warm off-white paper in the #F2EFE7 family, near-black ink and wood, one vivid electric-blue accent matching the approved comp.
+Materials/textures: Fine dotted paper grid, matte uncoated fibers, dark natural wood grain, matte black pen.
+Text (verbatim, and this is the only text allowed in the image):
+"Problem"
+"Too many manual steps."
+"Too much context switching."
+"Goal"
+"One reliable workflow I can run end-to-end."
+"Measure"
+"time saved, errors reduced, quality kept."
+Constraints: Render every quoted line exactly once, with exact spelling, capitalization, and punctuation. Make all text legible at website display size. The blue check mark is graphical and contains no characters. This is an illustrative editorial asset, not real evidence.
+Avoid: Any additional words, numbers, labels, logos, people, hands, faces, customer data, statistics, brand marks, watermark, interface chrome, notebook binding, coffee cup, phone, keyboard, gradients, vignette, or fabricated claims.

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Practical experiments from Tom Ilsinszki about turning repeated work into something AI can help with.">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/archivo-700.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="styles.css?v=10">
+    <title>Indie Techie — Make repeated work easier with AI</title>
+  </head>
+  <body id="top">
+    <!--
+      THESIS: Indie Techie turns real recurring work into small, honest AI experiments from one experienced practitioner.
+      OWN-WORLD: Near-black contact frames on sampled #F3EFEA proof paper, electric #0D52E5 proof marks, citrus #EEF69A status accents, documentary portraiture, Archivo grotesk and Fragment Mono metadata.
+      STORY: Practical promise, four-step method, personal origin, working examples, newsletter, recurring-problem invitation, social destinations, closing action.
+      FIRST VIEWPORT: A plainspoken proposition, dominant newsletter destination, and compact portrait proof establish both usefulness and authorship.
+    -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-shell site-header__inner">
+        <a class="wordmark" href="#top" aria-label="Indie Techie, home">Indie Techie</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#method"><span>01</span> Method</a></li>
+            <li><a href="#examples"><span>02</span> Examples</a></li>
+            <li><a href="#about"><span>03</span> About</a></li>
+            <li><a href="#newsletter"><span>04</span> Newsletter</a></li>
+          </ul>
+        </nav>
+        <a class="header-action" href="#newsletter" aria-label="Newsletter signup, opening shortly">
+          Newsletter
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"></path></svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero site-shell" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <h1 id="hero-title">Turn the work you repeat into something AI can <span>help with.</span></h1>
+          <p class="hero__intro">
+            Find something you do again and again. Show AI how you handle it, so it can help you next time. Repeat that, and the small improvements start to add up.
+          </p>
+          <a class="hero__newsletter" href="#newsletter" aria-label="Go to the Indie Techie newsletter signup, opening shortly">
+            <span>
+              <strong>The Indie Techie newsletter</strong>
+              <span class="hero__newsletter-message">Real problems. Small experiments. Honest results.</span>
+              <small>Two emails a month. Signup opens shortly.</small>
+            </span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+          <p class="hero__proof">
+            <strong>15+ years</strong> building software<span aria-hidden="true"></span><strong class="proof-mark">Upwork Expert-Vetted</strong>
+          </p>
+        </div>
+
+        <figure class="portrait-proof">
+          <div class="proof-rail proof-rail--top" aria-hidden="true"><span>IT_002</span><span>24</span><span>Indie Techie</span></div>
+          <img src="assets/tom-portrait.jpg" alt="Tom Ilsinszki outdoors beneath palm trees" width="3024" height="2268" fetchpriority="high">
+          <div class="proof-rail proof-rail--bottom" aria-hidden="true"><span>24</span><span>24A</span></div>
+          <span class="portrait-proof__edge" aria-hidden="true">400TX</span>
+          <figcaption>Keep it human.</figcaption>
+        </figure>
+      </section>
+
+      <section class="method-loop" id="method" aria-labelledby="method-loop-title">
+        <div class="site-shell method-loop__inner">
+          <div class="method-loop__copy">
+            <h2 id="method-loop-title">One task.<br><span>Better every time.</span></h2>
+            <p>Each pass teaches AI a little more about the way you work.</p>
+          </div>
+
+          <ol class="visually-hidden">
+            <li>Find a repeated task.</li>
+            <li>Show AI how you handle it.</li>
+            <li>Save the approach.</li>
+            <li>Review and improve.</li>
+          </ol>
+
+          <svg class="method-loop__diagram" viewBox="0 0 720 720" aria-hidden="true" focusable="false">
+            <defs>
+              <marker id="method-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 Z"></path>
+              </marker>
+              <path id="method-orbit-path" d="M360 150 A210 210 0 1 1 359.9 150"></path>
+            </defs>
+
+            <circle class="method-loop__track" cx="360" cy="360" r="210"></circle>
+            <path class="method-loop__arc" d="M360 150 A210 210 0 0 1 570 360" marker-end="url(#method-arrow)"></path>
+            <path class="method-loop__arc" d="M570 360 A210 210 0 0 1 360 570" marker-end="url(#method-arrow)"></path>
+            <path class="method-loop__arc" d="M360 570 A210 210 0 0 1 150 360" marker-end="url(#method-arrow)"></path>
+            <path class="method-loop__arc" d="M150 360 A210 210 0 0 1 360 150" marker-end="url(#method-arrow)"></path>
+
+            <circle class="method-loop__cursor" r="10">
+              <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+                <mpath href="#method-orbit-path"></mpath>
+              </animateMotion>
+            </circle>
+
+            <g class="method-loop__stage method-loop__stage--one">
+              <circle cx="360" cy="150" r="34"></circle>
+              <text x="360" y="158">01</text>
+              <text class="method-loop__label" x="360" y="74"><tspan x="360">Find a</tspan><tspan x="360" dy="28">repeated task</tspan></text>
+            </g>
+            <g class="method-loop__stage method-loop__stage--two">
+              <circle cx="570" cy="360" r="34"></circle>
+              <text x="570" y="368">02</text>
+              <text class="method-loop__label" x="605" y="337"><tspan x="605">Show AI how</tspan><tspan x="605" dy="28">you handle it</tspan></text>
+            </g>
+            <g class="method-loop__stage method-loop__stage--three">
+              <circle cx="360" cy="570" r="34"></circle>
+              <text x="360" y="578">03</text>
+              <text class="method-loop__label" x="360" y="646"><tspan x="360">Save the</tspan><tspan x="360" dy="28">approach</tspan></text>
+            </g>
+            <g class="method-loop__stage method-loop__stage--four">
+              <circle cx="150" cy="360" r="34"></circle>
+              <text x="150" y="368">04</text>
+              <text class="method-loop__label" x="115" y="337"><tspan x="115">Review and</tspan><tspan x="115" dy="28">improve</tspan></text>
+            </g>
+
+            <text class="method-loop__center" x="360" y="347"><tspan x="360">The next time</tspan><tspan x="360" dy="34">starts further ahead</tspan></text>
+          </svg>
+        </div>
+      </section>
+
+      <section class="small-solutions" aria-labelledby="small-solutions-title">
+        <div class="site-shell small-solutions__inner">
+          <h2 id="small-solutions-title">Small problems.<br><span>Personal solutions.</span></h2>
+          <div class="small-solutions__copy">
+            <p>Custom software is expensive to build and maintain. With AI, you can describe how you work in plain English—making tailored help practical for smaller, everyday problems.</p>
+            <p>For lawyers, accountants, food-truck owners, creators, and anyone with a task that keeps coming back.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about site-shell" id="about" aria-labelledby="about-title">
+        <div class="about__index" aria-hidden="true"><span>03</span><span>About</span></div>
+        <div class="about__lead">
+          <h2 id="about-title">It started with <span>software.</span></h2>
+          <p>I've been building software for more than 15 years, so I already knew how I wanted the work done. But AI would often start building too early, make too many decisions at once, or produce changes that were difficult to review.</p>
+        </div>
+        <div class="about__story">
+          <p class="about__story-lead">Instead of correcting the same problems every time, I wrote down my process: plan before coding, discuss difficult decisions one at a time, and keep every change reviewable. The more clearly I showed AI how I worked, the more useful it became.</p>
+          <p>Then I noticed the same opportunity elsewhere: preparing monthly invoices, planning and scheduling social media content, and keeping track of other tasks that repeatedly come back.</p>
+          <p>Now I'm exploring how far this idea can go—first with my own work, then with independent professionals and small-business owners. I want to find real recurring problems, see whether AI can make one part easier, and share honestly what works and what doesn't.</p>
+        </div>
+      </section>
+
+      <section class="examples" id="examples" aria-labelledby="examples-title">
+        <div class="site-shell examples__inner">
+          <div class="examples__intro">
+            <h2 id="examples-title">Things I'm teaching my AI</h2>
+            <p>I'm starting with problems I know well. Some already help me today; others are experiments I'm still building.</p>
+          </div>
+          <ol class="examples__list">
+            <li>
+              <span class="examples__number">01</span>
+              <div><h3>Preparing my monthly invoices</h3><p>Every month, I convert payments from USD to EUR, enter everything into Excel, and prepare the files for my bookkeeper. I'm teaching AI to handle those repeated steps with me.</p></div>
+              <span class="examples__status examples__status--building">Building now</span>
+            </li>
+            <li>
+              <span class="examples__number">02</span>
+              <div><h3>Managing my social media content</h3><p>I use AI to develop ideas, plan and schedule posts, and keep track of what I've already published—so I don't have to rebuild the process each time.</p></div>
+              <span class="examples__status">Using now</span>
+            </li>
+            <li>
+              <span class="examples__number">03</span>
+              <div><h3>Building software my way</h3><p>I've taught AI to plan before coding, discuss difficult decisions one at a time, and keep changes small enough to review.</p></div>
+              <span class="examples__status">Using now</span>
+            </li>
+          </ol>
+          <p class="examples__closing">These are my own recurring problems. Next, I want to meet people with completely different work, understand what they keep doing manually, and see whether AI can make one part easier.</p>
+        </div>
+      </section>
+
+      <section class="field-notes site-shell" id="newsletter" aria-labelledby="field-notes-title">
+        <div class="field-notes__copy">
+          <h2 id="field-notes-title">Real problems.<br>Small experiments.<br><span>Honest results.</span></h2>
+          <p>Twice a month, I'll share a recurring task I've tried to make easier with AI—from invoices and social media to software and everyday business admin.</p>
+          <p>You'll see what I tried, what worked, what didn't, and what you can apply to your own work.</p>
+        </div>
+        <div class="field-notes__form">
+          <p>The Indie Techie newsletter</p>
+          <!-- Task 3 will connect this form to the selected newsletter provider. -->
+          <form aria-label="Newsletter signup coming soon" aria-describedby="newsletter-signup-status newsletter-signup-promise">
+            <label for="newsletter-email">Your email</label>
+            <input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="newsletter-signup-status newsletter-signup-promise" readonly>
+            <button type="button" disabled>Join the newsletter</button>
+          </form>
+          <p class="field-notes__status" id="newsletter-signup-status">Signup opens shortly.</p>
+          <p class="field-notes__promise" id="newsletter-signup-promise">Two emails a month. No hype. Unsubscribe whenever you like.</p>
+        </div>
+      </section>
+
+      <section class="callout" id="call" aria-labelledby="callout-title">
+        <div class="site-shell callout__inner">
+          <h2 id="callout-title">What's the annoying thing you keep doing?</h2>
+          <div class="callout__copy">
+            <p>Whether you run a business or work for yourself, bring me one task that keeps coming back.</p>
+            <p>We'll look at how you handle it today and see whether AI could make one part easier. Sometimes AI won't be the right answer—and that's useful to learn too.</p>
+            <span class="callout__action">
+              <strong>Book a call</strong>
+              <small>Calendly link to connect</small>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="elsewhere" aria-labelledby="elsewhere-title">
+        <div class="site-shell elsewhere__inner">
+          <div>
+            <h2 id="elsewhere-title">Follow along</h2>
+            <p>Follow the experiments on TikTok, Instagram, and YouTube, or see my professional work on Upwork.</p>
+          </div>
+          <ul aria-label="Social destinations awaiting their final URLs">
+            <li><span>TikTok</span><small>Short experiments</small></li>
+            <li><span>Instagram</span><small>Behind the process</small></li>
+            <li><span>YouTube</span><small>Longer field notes</small></li>
+            <li><span>Upwork</span><small>Professional work</small></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="site-shell closing__inner">
+          <h2 id="closing-title">Pick one task you do again and again—and make the next time easier.</h2>
+          <div>
+            <p>Show AI how you handle it. Keep the instructions that work. Improve them the next time the task comes back.</p>
+            <a href="#newsletter" aria-label="Go to the newsletter signup, opening shortly">Join the newsletter</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell site-footer__inner">
+        <p>Indie Techie <span>by Tom Ilsinszki</span></p><p>© 2026</p><a href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
