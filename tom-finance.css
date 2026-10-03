@@ -1,0 +1,72 @@
+.finance-page {
+  min-width: 0;
+  overflow-x: visible;
+}
+
+.finance-shell {
+  width: min(calc(100% - 2 * var(--gutter)), 42rem);
+  margin-inline: auto;
+  padding-block: clamp(2rem, 8vh, 5rem);
+}
+
+.finance-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--fine-line);
+}
+
+.finance-header p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.finance-page a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  color: var(--blue);
+}
+
+.finance-page a:hover {
+  color: var(--blue-dark);
+}
+
+.finance-content {
+  padding-top: clamp(2.5rem, 7vw, 4rem);
+}
+
+.finance-content h1 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.finance-content p {
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.finance-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--fine-line);
+}
+
+.finance-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+
+.finance-footer [aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
